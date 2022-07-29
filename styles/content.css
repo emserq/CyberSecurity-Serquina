@@ -1,0 +1,56 @@
+.first-content,
+.second-content,
+.third-content {
+  width: 1000px;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: box-shadow .3s, outline .3s;
+}
+
+.first-content:hover,
+.second-content:hover,
+.third-content:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: 3px solid rgba(255, 255, 255, .5);
+}
+
+.first-content {
+  margin-top: 200px;
+}
+
+.second-content {
+  margin-top: 100px;
+}
+
+.third-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.video-content {
+  position: absolute;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: box-shadow .3s, outline .3s;
+}
+
+.video-content:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: 3px solid rgba(255, 255, 255, .5);
+}
+
+.video-content p {
+  margin-bottom: 10px;
+}
+
+video {
+  width: 900px;
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: Quicksand, Arial;
+  background-color: #ecdfdc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  color: #331800;
+}
+
+a {
+  text-decoration: none;
+}

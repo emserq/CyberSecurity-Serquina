@@ -1,0 +1,64 @@
+.navigation-container {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.right-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.first,
+.second {
+  padding:  12px 15px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: border-bottom .15s, border-top .15s;
+}
+
+.first:hover,
+.second:hover {
+  border-bottom: 2px solid #ecdfdc;
+  border-top: 2px solid #ecdfdc;
+}
+
+.third {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: #ecdfdc;
+  transition: background-color .15s;
+  cursor: pointer;
+  padding:  5px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 0px 3px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.third:hover {
+  background-color: #f1eae8;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
